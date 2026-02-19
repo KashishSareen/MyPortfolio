@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="text-white bg-[linear-gradient(57deg,rgba(82,82,130,1)_0%,rgba(2,0,36,1)_23%)]">
+    <!-- header start -->
+     <header class="h-[10vh] w-full   flex items-center justify-evenly">
+        <!-- logo start -->
+         <div class="h-[10vh] w-[60%] md:w-[20%]  flex items-center justify-center  ">
+            <!-- <img src="./image/logo.png" alt="" class="size-9" > -->
+            <h1 class=" lg:text-[30px] font-semibold md:text-[20px] ">
+                <img src="/img/ksLOGO.png" alt="" srcset="" class="h-12 lg:h-10 inline-block mr-2">
+            </h1>
+        </div>
+         <!-- logo end -->
+
+         <!-- nav start -->
+                    <nav class=" h-[10vh] w-[60%]  flex items-center justify-evenly md:justify-end relative">
+           
+                        <!-- Desktop menu -->
+                        <ul class="hidden h-[10vh] w-full lg:flex items-center justify-end gap-8">
+                            <li><a href="#sect1" class="hover:text-cyan-600 cursor-pointer hover:scale-110">Home</a></li>
+                            <li><a href="#about" class="hover:text-cyan-600 cursor-pointer hover:scale-110">About</a></li>
+                            <li><a href="#skills" class="hover:text-cyan-600 cursor-pointer hover:scale-110">My Skills</a></li>
+                            <li><a href="#work" class="hover:text-cyan-600 cursor-pointer hover:scale-110">My Work</a></li>
+                            <li><a href="#contact" class="hover:text-cyan-600 cursor-pointer hover:scale-110">Contact</a></li>
+                        </ul>
+
+                        <!-- Mobile menu button -->
+                        <button id="menu-btn" class="lg:hidden text-[20px] p-2" aria-label="Open menu">
+                            <i class="ri-menu-3-line"></i>
+                        </button>
+
+                        <!-- Mobile dropdown (hidden by default) -->
+                        <ul id="mobile-menu" class="flex-col hidden absolute right-4 top-[70px] bg-black/60 backdrop-blur-sm rounded-lg p-4 lg:hidden space-y-3">
+                            <li class="px-4 py-2 rounded hover:bg-white/10"><a href="#sect1">Home</a></li>
+                            <li class="px-4 py-2 rounded hover:bg-white/10"><a href="#work">Projects</a></li>
+                            <li class="px-4 py-2 rounded hover:bg-white/10"><a href="#skills">My Skills</a></li>
+                            <li class="px-4 py-2 rounded hover:bg-white/10"><a href="#work">My Work</a></li>
+                            <li class="px-4 py-2 rounded hover:bg-white/10"><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+          <!-- nav end -->
+
+          <!-- button start -->
+           <!-- <div class="h-[10vh]  flex items-center lg:justify-evenly md:justify-end md:mr-8 ">
+          
+            <button class="hidden lg:flex ring-2 ring-white py-[5px] px-[35px] text-[18px] hover:text-cyan-600 cursor-pointer ">Contact us</button>
+           </div> -->
+           <!-- button end -->
+     </header>
+     <!-- header end  -->
+      
+     <!-- section start -->
+      <section id="sect1" class="h-auto  w-full flex flex-col lg:flex-row items-center justify-evenly gap-4 py-7">
+        <div class="lg:h-[40vh] lg:w-[35%] w-full h-auto  md:text-center lg:text-start text-center">
+            <h1 class="text-[45px] font-bold my-[20px] ml-5" >Hi, I’m Kashish Sareen</h1>
+            <p class="lg:w-[70%] text-[20px]  mb-[20px] ml-5 md:place-self-center md:w-[50%] md:text-center md:text-[16px] lg:text-start lg:place-self-start">A passionate Web Designer. I am passionate about designing responsive and user-friendly websites. I focus on building modern designs with smooth functionality and writing clean, structured code.</p>
+            <a href="#work" class="inline-flex items-center py-[10px] px-[15px] bg-[#5454D4] font-semibold mt-[10px] ml-5 mb-[10px] rounded-4xl hover:bg-white hover:text-blue-600">View My Work <i class="ri-arrow-right-up-line ml-2"></i></a>
+            <a href="#contact" class="inline-flex items-center py-[10px] px-[18px] bg-[#5454D4] font-semibold mt-[10px] ml-5 mb-[10px]  rounded-4xl hover:bg-white hover:text-blue-600">Contact Me</a>
+        </div>
+      
+            <img src="img/mine.jpeg" alt="Kashish Sareen" class="w-64 md:w-80 lg:w-96 rounded-xl shadow-lg object-cover">
+        
+      </section>
+      <!-- section end  -->
+
+            <section id="about" class="py-16">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row gap-10 items-center">
+
+             <div class="md:w-1/2 w-full flex items-center justify-center">
+                <img src="img/mine 2.jpeg" alt="Kashish Sareen" class="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full  shadow-lg object-cover">
+            </div>
+      
+            <div class="md:w-1/2 w-full">
+                <h2 class="text-3xl font-bold mb-4 text-indigo-300">About Me</h2>
+                <p class="mb-4 leading-relaxed">
+                    My name is <strong>Kashish Sareen</strong>. I have completed my <strong>Bachelor of Computer Applications (BCA)</strong>.
+                    I am passionate about web designing.
+                </p>
+                <p class="leading-relaxed">
+                    I enjoy building visually appealing, user-friendly and responsive websites using HTML, CSS and JavaScript.
+                    My goal is to create designs that are both beautiful and functional.
+                </p>
+            </div>
+        
+
+        </div>
+    </section>
+
+   
+
+       <!-- section start -->
+        <section id="skills" class="h-auto w-full flex flex-col items-center justify-evenly">
+            <div class="h-[20vh] w-full flex flex-col items-center justify-center gap-5">
+                <h1 class="text-[50px] border-b-2 border-red-300 font-semibold">Skills</h1>
+                <p class="md:text-[20px] text-[15px]">The Skills, tools and technologies I am Good at:</p>
+            </div>
+
+            <div class="h-auto py-[20px] w-[80%]   flex flex-wrap gap-[50px]   justify-center">
+                <div class=" h-auto w-[200px] flex flex-col items-center justify-center  py-[20px] ">
+                    <img src="img/html.png" alt="HTML" srcset="" class="w-[70%]">
+                    <h3 class="text-center">HTML</h3>
+                </div>
+                 <div class=" h-auto w-[200px] flex flex-col items-center justify-center  py-[20px] ">
+                    <img src="img/CSS logo.png" alt="CSS" srcset="" class="w-[70%]">
+                    <h3 class="text-center">CSS</h3>
+                </div>
+                 <!-- <div class=" h-auto w-[200px] flex flex-col items-center justify-center  py-[20px] ">
+                    <img src="img/c.png" alt="C" srcset="" class="w-[70%]">
+                    <h3 class="text-center">C</h3>
+                </div> -->
+                 <!-- <div class=" h-auto w-[200px] flex flex-col items-center justify-center  py-[20px] ">
+                    <img src="img/C++.png" alt="C++" srcset="" class="w-[70%]">
+                    <h3 class="text-center">C++</h3>
+                </div> -->
+                <div class=" h-auto w-[200px] flex flex-col items-center justify-center  py-[20px] ">
+                    <img src="img/Tailwind_CSS.png" alt="Tailwind" srcset="" class="w-[70%]">
+                    <h3 class="text-center">Tailwind</h3>
+                </div>
+                 <div class=" h-auto w-[200px] flex flex-col items-center justify-center  py-[20px] ">
+                    <img src="img/javascript.png" alt="JavaScript" srcset="" class="w-[70%]">
+                    <h3 class="text-center">Javascript</h3>
+                </div>
+                 <!-- <div class=" h-auto w-[200px] flex flex-col items-center justify-center  py-[20px] ">
+                    <img src="img/mongodb.png" alt="MongoDB" srcset="" class="w-[70%]">
+                    <h3 class="text-center ">MongoDB</h3>
+                </div> -->
+               
+                 <!-- <div class=" h-auto w-[200px] flex flex-col items-center justify-center  py-[20px] ">
+                    <img src="img/react.js.png" alt="React" srcset="" class="w-[70%]">
+                    <h3 class="text-center">React.js</h3>
+                </div> -->
+                <!-- <div class=" h-auto w-[200px] flex flex-col items-center justify-center  py-[20px] ">
+                    <img src="img/express-js.png" alt="Express" srcset="" class="w-[70%]">
+                    <h3 class="text-center">Express.js</h3>
+                </div> -->
+            </div>
+        </section>
+        <!-- section end  -->
+
+        <!-- section start project vala -->
+         <section id="work" class="h-auto lg:h-[100vh] w-full flex flex-col items-center justify-evenly ">
+            <div class="h-[20vh] w-full  flex flex-col items-center justify-evenly gap-4">
+                 <h1 class="md:text-[50px] border-b-2 border-red-300 text-[30px] font-semibold">My Creative Web Work</h1>
+                 <p class="md:text-[20px] text-[15px] text-center">Showcasing my versatility in building unique, responsive, and user-friendly websites.</p>
+            </div>
+
+            <div class="lg:h-[70vh] w-full h-auto flex lg:flex-row flex-col items-center justify-evenly">
+                <div class=" h-[300px] lg:w-[500px] w-[72] flex flex-col items-center justify-center p-[10px] lg:place-self-start " >
+                    <div class="w-full h-40 sm:h-44 md:h-48 lg:h-60 overflow-hidden rounded-lg shadow-md">
+                        <img src="img/coffee wbsite.png" alt="Coffee website" class="w-full h-full object-cover">
+                    </div>
+                    <p class="mt-2">Coffee Website</p>
+                </div>
+                <div class="h-[300px] lg:w-[500px] w-[72] flex flex-col items-center justify-center p-[10px] lg:place-self-center">
+                    <div class="w-full h-40 sm:h-44 md:h-48 lg:h-60 overflow-hidden rounded-lg shadow-md">
+                        <img src="img/yoga website.png" alt="Yoga website" class="w-full h-full object-cover">
+                    </div>
+                    <p class="mt-2">Yoga Website</p>
+                </div>
+                <div class="h-[300px] lg:w-[500px] w-[72] flex flex-col items-center justify-center p-[10px] lg:place-self-end">
+                    <div class="w-full h-40 sm:h-44 md:h-48 lg:h-60 overflow-hidden rounded-lg shadow-md">
+                        <img src="img/restaurant website.png" alt="Restaurant website" class="w-full h-full object-cover">
+                    </div>
+                    <p class="mt-2">Restaurant Website</p>
+                </div>
+            </div>
+           
+         </section>
+         <!-- section end -->
+
+         <!-- footer start -->
+          <section id="contact" class="h-auto w-full">
+            <div class="h-[20vh] w-full  flex flex-col items-center justify-evenly gap-4">
+                <h1 class="text-[50px]  border-b-2 border-red-300 font-semibold">Contact Me</h1>
+                <p class="lg:text-[20px] md:text-[15px] md:w-[70%] text-center ">I am seeking opportunities as a Web Designer to build clean, responsive, and user-friendly websites please feel free to connect with me.</p>
+            </div>
+            <div class="h-[15vh] flex flex-col items-center justify-evenly mt-5 mb-6 p-7">
+            <a href="mailto:sareenkashish71@gmail.com" class="text-[20px] lg:text-[30px] ">sareenkashish71@gmail.com <i class="ri-mail-line"></i> </a>
+            <a href="tel:+9888736229" class="text-[30px]">9888736229 <i class="ri-phone-line"></i></a>
+            
+            </div>
+                    </section>
+                    <!-- footer end  -->
+
+    <!-- Mobile menu toggle script -->
+    <script>
+        (function(){
+            const btn = document.getElementById('menu-btn');
+            const mobile = document.getElementById('mobile-menu');
+            if(!btn || !mobile) return;
+            btn.addEventListener('click', function(){
+                mobile.classList.toggle('hidden');
+            });
+            // close on link click
+            mobile.querySelectorAll('a').forEach(a => {
+                a.addEventListener('click', ()=> mobile.classList.add('hidden'));
+            });
+        })();
+    </script>
+</body>
+</html>
