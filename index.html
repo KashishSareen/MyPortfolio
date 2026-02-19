@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,16 +10,13 @@
 />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body class="text-white bg-[linear-gradient(57deg,rgba(82,82,130,1)_0%,rgba(2,0,36,1)_23%)]">
+<body class="text-white bg-[linear-gradient(57deg,rgba(82,82,130,1)_0%,rgba(2,0,36,1)_23%)] pt-[10vh]">
     <!-- header start -->
-     <header class="h-[10vh] w-full   flex items-center justify-evenly">
+     <header class="fixed top-0 left-0 right-0 h-[10vh] w-full flex items-center justify-evenly bg-[linear-gradient(rgba(2,0,36,1)_23%)]   z-50 shadow-lg">
         <!-- logo start -->
-         <div class="h-[10vh] w-[60%] md:w-[20%]  flex items-center justify-center  ">
-            <!-- <img src="./image/logo.png" alt="" class="size-9" > -->
-            <h1 class=" lg:text-[30px] font-semibold md:text-[20px] ">
-                <img src="/img/ksLOGO.png" alt="" srcset="" class="h-12 lg:h-10 inline-block mr-2">
-            </h1>
-        </div>
+         <a href="#sect1" class="h-[10vh] w-[60%] md:w-[20%]  flex items-center justify-center hover:scale-110 transition-transform duration-300 cursor-pointer">
+            <img src="/img/ksLOGO.png" alt="Kashish Sareen Logo" class="h-12 lg:h-10 inline-block">
+         </a>
          <!-- logo end -->
 
          <!-- nav start -->
@@ -28,7 +25,7 @@
                         <!-- Desktop menu -->
                         <ul class="hidden h-[10vh] w-full lg:flex items-center justify-end gap-8">
                             <li><a href="#sect1" class="hover:text-cyan-600 cursor-pointer hover:scale-110">Home</a></li>
-                            <li><a href="#about" class="hover:text-cyan-600 cursor-pointer hover:scale-110">About</a></li>
+                            <li><a href="#about" class="hover:text-cyan-600 cursor-pointer hover:scale-110">About Me</a></li>
                             <li><a href="#skills" class="hover:text-cyan-600 cursor-pointer hover:scale-110">My Skills</a></li>
                             <li><a href="#work" class="hover:text-cyan-600 cursor-pointer hover:scale-110">My Work</a></li>
                             <li><a href="#contact" class="hover:text-cyan-600 cursor-pointer hover:scale-110">Contact</a></li>
@@ -40,7 +37,8 @@
                         </button>
 
                         <!-- Mobile dropdown (hidden by default) -->
-                        <ul id="mobile-menu" class="flex-col hidden absolute right-4 top-[70px] bg-black/60 backdrop-blur-sm rounded-lg p-4 lg:hidden space-y-3">
+                        <ul id="mobile-menu" class="flex-col hidden fixed right-4 top-[60px] bg-black/80 backdrop-blur-md rounded-lg p-4 lg:hidden space-y-3 shadow-xl">
+
                             <li class="px-4 py-2 rounded hover:bg-white/10"><a href="#sect1">Home</a></li>
                             <li class="px-4 py-2 rounded hover:bg-white/10"><a href="#work">Projects</a></li>
                             <li class="px-4 py-2 rounded hover:bg-white/10"><a href="#skills">My Skills</a></li>
@@ -185,8 +183,14 @@
                 <p class="lg:text-[20px] md:text-[15px] md:w-[70%] text-center ">I am seeking opportunities as a Web Designer to build clean, responsive, and user-friendly websites please feel free to connect with me.</p>
             </div>
             <div class="h-[15vh] flex flex-col items-center justify-evenly mt-5 mb-6 p-7">
-            <a href="mailto:sareenkashish71@gmail.com" class="text-[20px] lg:text-[30px] ">sareenkashish71@gmail.com <i class="ri-mail-line"></i> </a>
-            <a href="tel:+9888736229" class="text-[30px]">9888736229 <i class="ri-phone-line"></i></a>
+            <a href="mailto:sareenkashish71@gmail.com" class="text-[20px] lg:text-[30px] hover:text-cyan-400 transition-colors duration-300 flex items-center gap-2">
+                <i class="ri-mail-line"></i>
+                sareenkashish71@gmail.com
+            </a>
+            <a href="tel:+9888736229" class="text-[20px] lg:text-[30px] hover:text-cyan-400 transition-colors duration-300 flex items-center gap-2">
+                <i class="ri-phone-line"></i>
+                9888736229
+            </a>
             
             </div>
                     </section>
